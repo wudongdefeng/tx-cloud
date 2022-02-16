@@ -1,3 +1,2 @@
 TZ: Asia/Shanghai
-JD_COOKIE: COOKIE1&COOKIE2
-以下省略，配置好了删除本行
+JD_COOKIE: pt_key=123;pt_pin=123;&pt_key=123;pt_pin=123;
