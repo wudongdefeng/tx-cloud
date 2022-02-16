@@ -22,7 +22,7 @@ jobs:
       - name: set serverless.yml and push env
         working-directory: /home/runner/work/tx-cloud/tx-cloud
         env:
-          TENCENT_REGION: ${{ secrets.SCF_REGION }}
+          TENCENT_REGION: ap-shanghai
           TENCENT_FUNCTION_NAME: wind
           TENCENT_MEMORYSIZE: ${{ secrets.TENCENT_MEMORYSIZE }}
           TENCENT_TIMEOUT: ${{ secrets.TENCENT_TIMEOUT }}
