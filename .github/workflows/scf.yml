@@ -16,7 +16,7 @@ jobs:
       
       - uses: actions/setup-node@v2
       - name: install dependency
-        working-directory: /home/runner/work/jd-tencentscf/jd-tencentscf
+        working-directory: /home/runner/work/tx-cloud/tx-cloud
         run: |
           bash onekey.sh
       - name: set serverless.yml and push env
