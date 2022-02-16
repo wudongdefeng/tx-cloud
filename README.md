@@ -9,6 +9,6 @@
 
 2,.env文件用于填写腾讯云函数自己的私钥
 
-3,在settings里面找到secret,PAT（表示在github申请的个人秘钥，有时候叫github_token）
+3,在settings里面找到secret,添加变量PAT（表示在github申请的个人秘钥，在这里申请https://github.com/settings/tokens）
 
 4,自定义脚本放在仓库根目录，在serverless.yml填写自己添加的脚本定时
