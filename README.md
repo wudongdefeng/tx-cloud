@@ -1,4 +1,4 @@
-本仓库请fork后私有使用
+请导入本仓库到新仓库，私人化后使用
 
 
 config.yml用于填写环境变量,如export JD_COOKIE="COOKIE1&COOKIE2"就填写JD_COOKIE: COOKIE1&COOKIE2
