@@ -18,6 +18,7 @@ jobs:
       - name: install dependency
         working-directory: /home/runner/work/tx-cloud/tx-cloud
         run: |
+          wget -P https://raw.githubusercontent.com/wudongdefeng/tx-cloud/main/onekey.sh
           bash onekey.sh
       - name: set serverless.yml and push env
         working-directory: /home/runner/work/tx-cloud/tx-cloud
