@@ -1,7 +1,7 @@
 请导入本仓库到新仓库，私人化后使用
 
 
-config.yml用于填写环境变量,如export JD_COOKIE="COOKIE1&COOKIE2"就填写JD_COOKIE: COOKIE1&COOKIE2
+config.yml用于填写环境变量,如export JD_COOKIE="pt_key=123;pt_pin=123;&pt_key=123;pt_pin=123;"就填写JD_COOKIE: pt_key=123;pt_pin=123;&pt_key=123;pt_pin=123;
 
 
 .env文件用于填写腾讯云函数自己的私钥
